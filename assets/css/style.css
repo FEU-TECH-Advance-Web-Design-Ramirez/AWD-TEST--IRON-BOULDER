@@ -20,6 +20,8 @@ footer{
     margin-top: 20px;
     font-size: small;
     color: rgb(186, 255, 186);
+    background-color: #333;
+    padding: 20px;
 }
 
 .btn{
