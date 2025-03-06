@@ -23,12 +23,23 @@ main{
     height: 200px;
     padding-top: 3%;
 }
-.Sec1Text, h1{
+.Sec1H1{
     width:50%;
     text-align: left;
     padding-left: 5%;
     color: white;
+}
 
+.Sec1Text{
+    width:50%;
+    text-align: left;
+    padding-left: 5%;
+    color: white;
+}
+
+.DocWoman{
+    float: right;
+    
 }
 /*Section 2*/
 .section-2{
