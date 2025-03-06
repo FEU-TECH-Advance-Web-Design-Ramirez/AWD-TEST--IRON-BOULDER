@@ -16,31 +16,70 @@ main{
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
-/*Section 1*/
-.section-1{
+/* Section 1 */
+.section-1 {
     font-family: arial;
     background: #578FCA;
-    height: 200px;
-    padding-top: 3%;
-}
-.Sec1H1{
-    width:50%;
-    text-align: left;
+    height: 100vh; 
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 5%;
+}
+
+/* Text content */
+.Sec1H1, .Sec1Text {
+    width: 50%;
+    text-align: left;
     color: white;
 }
 
-.Sec1Text{
-    width:50%;
-    text-align: left;
-    padding-left: 5%;
-    color: white;
+.Sec1H1 {
+    font-size: 2rem;
 }
 
-.DocWoman{
-    float: right;
-    
+.Sec1Text {
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
+
+/* Doctor Image */
+.DocWoman {
+    position: absolute;
+    right: 5%; 
+    bottom: 0; 
+    width: 50%; 
+}
+
+.DocWoman img {
+    width: 100%;
+    height: auto;
+}
+
+/* Get Started Button */
+.GetStarted {
+    margin-top: 40px;
+    text-align: left; 
+    padding-left: 20%;
+}
+
+.btn-get-started {
+    display: inline-block;
+    background-color: #A9C9F5; 
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border-radius: 25px; 
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-get-started:hover {
+    background-color: #8AB5E3; 
+}
+
+
 /*Section 2*/
 .section-2{
     font-family: arial;
@@ -68,7 +107,7 @@ header{
 /* logo */
 .logo{
  float: left;
- padding-top: 1%;
+ font-size: 2rem;
 }
 /*Navbar*/
 ul {
@@ -92,7 +131,7 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #4da3ff;
   }
 /* footer */
 footer{
