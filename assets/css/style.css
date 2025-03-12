@@ -47,9 +47,9 @@ main{
 /* Doctor Image */
 .DocWoman {
     position: absolute;
-    right: 5%; 
+    right: 10%; 
     bottom: 0; 
-    width: 50%; 
+    width: 45%; 
 }
 
 .DocWoman img {
@@ -84,20 +84,82 @@ main{
 .section-2{
     font-family: arial;
     background: #359BD1;
-    height: 100px;
+    height: 55vh; 
+}
+
+.Sec2H2, .Sec2Text {
+    text-align: center;
+    color: white;
+}
+
+.Sec2H2 {
+    width: 100%;
+    font-size: 2rem;
+    padding-top: 100px;
+}
+
+.Sec2Text {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 /*Section 3*/
-.section-3{
-    font-family: arial;
-    background: #ffffff;
-    height: 100px;
+/* Section 3: Our Services */
+.section-3, p{
+    padding-top: 10px;
 }
-/*Section 4*/
-.section-4  {
-    font-family: arial;
+
+.section-3 {
+    font-family: Arial, sans-serif;
     background: #ffffff;
-    height: 100px;
+    text-align: center;
+    padding: 60px 0;
 }
+
+.section-3 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service-box {
+    background: #93c6fa;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    padding-bottom: 35px;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+}
+
+.service-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.service-box p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #003e68;
+}
+
 /* header */
 header{
     background: #3674B5;
@@ -138,6 +200,43 @@ footer{
     font-size: small;
     color: white;
     background-color: #3674B5;
-    padding: 90px;
+    padding: 35px;
     height: 50%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer-box1 {
+    background: #3674B5;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    padding-bottom: 35px;
+    font-size: 1.5rem;
+}
+
+.footer-box2 {
+    background: #3674B5;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.footer-box3 {
+    background: #3674B5;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.footer2{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 10px;
 }
